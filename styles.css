@@ -1,0 +1,229 @@
+/*font shit*/
+
+
+/*General Tags*/
+body {
+    background-color: #571673;
+}
+
+header {
+    background-color: #57167399;
+
+    z-index: 1000;
+
+    top: 0;
+    position: fixed;
+    width: 100%;
+
+    height: 80px;
+
+
+    padding-top: 1.25%;
+    padding-bottom: 1.25%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+h2 {
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+    font-size: 3vw;
+
+    text-align: center;
+}
+
+h3 {
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+
+    font-size: 3vw;
+
+    text-align: center;
+}
+
+p {
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+    font-size: 1.75vw;
+    line-height: 2.5;
+
+}
+
+a {
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+    font-size: 1.5vw;
+}
+
+/*Classes*/
+.headerlink {
+    background-color: #ffffff;
+    border: solid 6px #571673;
+    color: #000000;
+
+    border-radius: 3vw;
+    filter: drop-shadow(-0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+
+    padding: 3vh 4vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+    transition-duration: 500ms;
+}
+
+.headerlink:hover {
+    background-color: #571673;
+    border: solid 6px #ffffff;
+    color: #ffffff;
+
+    transition-duration: 500ms;
+}
+
+.bodybox {
+    background-color: #ffffff;
+
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+
+    border-radius: 3vw;
+
+    filter: drop-shadow(-0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+}
+
+.bodyboxgrid {}
+
+/*ID Tags*/
+
+#headerspacer {
+    display: inline-block;
+    width: 10vw;
+}
+
+#headlinkbox {
+
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#splashimage {
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    min-height: 25vh;
+}
+
+#splashtext {
+    background-color: #ffffff80;
+    border: 6px solid white;
+    border-radius: 3vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    line-height: 1.5;
+    padding-left: 5%;
+    padding-right: 5%;
+
+    filter: drop-shadow(-0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+}
+
+#booknow {
+    background-color: white;
+    border: 6px solid #571673;
+    border-radius: 3vw;
+
+    font-size: 3vw;
+    font-weight: 500;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+    filter: drop-shadow(-0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+}
+
+#booknow:hover {
+    background-color: #571673;
+    border: solid 6px #ffffff;
+    color: #ffffff;
+
+    transition-duration: 500ms;
+}
+
+#splashlady {
+    border: 6px solid white;
+    border-radius: 3vw;
+
+    filter: drop-shadow(-0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+}
+
+#splashbuttons {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-column-gap: 5%;
+    grid-row-gap: 2.5%;
+
+    z-index: 100;
+    position: absolute;
+    top: 90px;
+
+    width: fit-content;
+}
+
+#splashbuttonholder {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+
+    max-width: 90%;
+}
+
+
+#claireselfie {
+    border-radius: 3vw;
+    float: right;
+    margin-left: 5%;
+}
+
+#bodyboxh3 {
+    padding-top: 1.25%;
+    padding-bottom: 4%;
+    border-bottom: 2px solid black;
+
+    width: 40vw;
+    align-content: center;
+}
+
+#bodyboxp {
+    padding-top: 2%;
+
+}
